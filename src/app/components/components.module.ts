@@ -12,11 +12,13 @@ import { DonaComponent } from './dona/dona.component';
     DonaComponent
   ],
   exports: [
-    IncrementadorComponent
+    IncrementadorComponent,
+    DonaComponent
   ],
   imports: [
     CommonModule,
     FormsModule,
+    
   ]
 })
 export class ComponentsModule { }
